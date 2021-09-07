@@ -1,28 +1,94 @@
 @import url(reset.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap');
 
 h1{
     text-align: center;
     color: white; 
+    font-family: 'Playfair Display SC', serif;
 }
 
 p{
-    color: white; 
+    color: white;
+    margin:15px; 
+    font-family: 'Karla', sans-serif;
 }
 
 h4{
     color: white; 
+    font-family: 'Alegreya SC', serif;
 }
 
 label{
     color: white; 
 }
 .buttoncenter{
-    text-align: center;;
+    text-align: center;
+    margin: 20px;
+}
+
+#grid{
+    background-color: #303030;
+    border: none;
+    color: white;
+    padding: 15px 32px;
 }
 
 
+
+/* contact */
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    color:white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]{
+    background-color: #303030;
+}
+
+.form {
+    padding: 20px;
+    max-width:600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+fieldset{
+    margin-bottom:30px;
+    border: 1px solid  rgb(73, 73, 73);;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.label{
+    font-size:16px;
+    font-family: 'Karla', sans-serif;
+    color: rgb(253, 253, 253);
+}
+
 @media(min-width:768px){
+
+    .margin{
+        margin-top:40px;
+        margin-right:10px;
+    }
+
     .about{
         display:grid;
         grid-template-columns: auto auto ;
@@ -37,5 +103,7 @@ label{
 }
 
 @media(min-width:1024px){
-
+    .margin{
+        margin-right:0px;
+    }
 }

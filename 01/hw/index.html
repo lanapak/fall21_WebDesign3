@@ -15,25 +15,43 @@
     <main>
         <div class="about"> 
             <img src="images/alison-wonderland.jpg" alt="Alison Wonderland portrait">
-            <p>
+            <p class="margin ">
                 With a sound as big as her name is punny, Alison Wonderland is a Sydney-based EDM producer and DJ who began her music career on the opposite side of the spectrum, as a classically trained cellist. Born Alexandra Sholler, she spent a few years DJ'ing before releasing her debut single, "Get Ready," in 2013; then in 2014 she signed with the EMI label and released the ironically titled Calm Down. The EP earned accolades from tastemakers like Annie Mac and Diplo, and it featured the hit single "I Want U." A year later she released her debut album, Run, which featured guest spots from Wayne Coyne of the Flaming Lips, Lido, and Slumberjack.
             </p>
         </div>
     
         <div class="buttoncenter">
-            <button id="grid">SHOW/ HIDE GALLERY </button>
+            <button id="grid">SHOW / HIDE GALLERY </button>
         </div>
        
         <div id="gallery">
-            <img src="images/1.jpg" alt="">
-            <img src="images/2.jpg" alt="">
-            <img src="images/3.jpg" alt="">
-            <img src="images/4.jpg" alt="">
-            <img src="images/5.jpg" alt="">
-            <img src="images/6.jpg" alt="">
-            <img src="images/7.jpg" alt="">
-            <img src="images/8.jpg" alt="">
-            <img src="images/9.jpg" alt="">
+            <picture>
+                <img src="images/1.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/2.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/3.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/4.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/5.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/6.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/7.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/8.jpg" alt="">
+            </picture>
+            <picture>
+                <img src="images/9.jpg" alt="">
+            </picture>
         </div>
 
         <p>
@@ -43,7 +61,7 @@
         <div class="form">
             <form action="/action_page.php">
                 <fieldset>
-                    <h4>Contact Info</h4>
+                    <h4>Contact Information</h4>
     
                     <label class="label" for="fname">First Name:</label>
                     <input type="text" id="fname" name="firstname" placeholder="First name...">
@@ -53,9 +71,7 @@
     
                     <label class="label" for="email">E-mail:</label>
                     <input type="text" id="email" name="email" placeholder="E-mail...">
-                </fieldset>
-            
-                <fieldset>
+                
                    <h4>Subject</h4>
     
                    <label class="label" for="subject"> Subject Title:</label>
@@ -65,8 +81,8 @@
                    <textarea id="textarea" name="textarea" cols="30" rows="6" maxlength="300" ></textarea> 
                 </fieldset>
     
+              
                 <input type="submit" value="Submit">
-    
             </form>
             </div>
     
@@ -75,7 +91,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $("#grid").click(function(){
-            $("#gallery").fadeToggle(200);
+            $("#gallery").fadeToggle(100);
         })
     </script>
 
