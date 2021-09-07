@@ -1,0 +1,41 @@
+@import url(reset.css);
+
+
+h1{
+    text-align: center;
+    color: white; 
+}
+
+p{
+    color: white; 
+}
+
+h4{
+    color: white; 
+}
+
+label{
+    color: white; 
+}
+.buttoncenter{
+    text-align: center;;
+}
+
+
+@media(min-width:768px){
+    .about{
+        display:grid;
+        grid-template-columns: auto auto ;
+        grid-gap: 16px;
+    }
+
+    #gallery{
+        display:grid;
+        grid-template-columns: auto auto auto ;
+        grid-gap: 16px;
+    }
+}
+
+@media(min-width:1024px){
+
+}
