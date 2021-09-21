@@ -1,0 +1,42 @@
+:root{
+   --salmon: rgb(255, 166, 134);
+   --raspberry: rgb(182, 70, 95);
+   --green-black:rgb(22, 37, 33);
+   --charoal: rgb(60, 71, 75);
+   --periwinkle: rgb(144, 151, 192);
+   --white: rgb(255,255,255);
+}
+
+.bg-light{
+    background-color: var(--charoal) !important;
+}
+
+.btn-success{
+    background-color: var(--salmon);
+    border-color: var(--salmon);
+}
+.btn-success:hover {
+    color: var(--white);
+    background-color: var(--salmon);
+    border-color: var(--raspberry);
+}
+
+.btn-outline-success{
+    color: var(--salmon);
+    border-color: var(--salmon);
+}
+.btn-outline-success:hover {
+    color: var(--white);
+    background-color: var(--salmon);
+    border-color: var(--salmon);
+}
+ 
+/*.btn-outline-success{
+    color: rgb(255, 166, 134);
+    border-color: rgb(255, 166, 134);
+}
+.btn-outline-success:hover{
+    color: rgb(255,255,255);
+    background-color: rgb(255, 166, 134);
+    border-color: rgb(255, 166, 134);
+} */
