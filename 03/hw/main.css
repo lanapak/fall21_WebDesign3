@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+h3{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+}
