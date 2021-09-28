@@ -1,0 +1,51 @@
+:root{
+    --black: rgb(0, 0, 0);
+    --navy: rgb(20, 33, 61);
+    --orange: rgb(252, 163, 17);
+    --lightgray: rgb(229, 229, 229);
+    --white: rgb(255, 255, 255);
+}
+
+.bg-light{
+    background-color: var(--lightgray)!important;
+}
+
+.btn-success{
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+.btn-success:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    border-color: var(--navy);
+}
+
+.btn-outline-success{
+    color: var(--orange);
+    border-color: var(--navy);
+}
+.btn-outline-success:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    border-color: var(--navy);
+}
+
+.margin-top{
+    margin-top: 40px;
+}
+
+main{
+    background-color: var(--lightgray);
+}
+
+.card{
+    background-color: var(--white);
+}
+ 
+h2, h3, p{
+    color: var(--navy);
+}
+
+.card-body {
+    color: var(--orange);
+}
