@@ -1,3 +1,52 @@
+:root{
+    --mandarin: rgb(239, 123, 69);
+    --elephante: rgb(88, 111, 124);
+    --neon: rgb(162, 215, 41);
+    --offwhite: rgb(248, 247, 255);
+    --black: rgb(10, 9, 8);
+}
+
 .margin-top{
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.bg-light{
+    background-color: var(--neon)!important;
+}
+
+.btn-success{
+    color: var(--mandarin);
+    background-color: var(--neon);
+    border-color: var(--mandarin);
+}
+.btn-success:hover {
+    color: var(--neon);
+    background-color: var(--mandarin);
+    border-color: var(--elephante);
+}
+
+.btn-outline-success{
+    color: var(--mandarin);
+    border-color: var(--elephante);
+}
+.btn-outline-success:hover {
+    color: var(--neon);
+    background-color: var(--mandarin);
+    border-color: var(--elephante);
+}
+
+p{
+    color: var(--elephante);
+}
+
+h2{
+    color: var(--mandarin);
+}
+
+h3{
+    color: var(--neon);
+}
+
+.card-body {
+    color: var(--orange);
 }

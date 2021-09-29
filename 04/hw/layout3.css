@@ -1,0 +1,44 @@
+:root{
+    --seablue: rgb(16, 109, 151);
+    --blue: rgb(57, 150, 208);
+    --orangeyellow: rgb(255, 184, 51);
+    --white: rgb(255, 255, 255);
+}
+
+.bg-light{
+    background-color: var(--seablue)!important;
+}
+
+.btn-success{
+    color: var(--orangeyellow);
+    background-color: var(--seablue);
+    border-color: var(--orangeyellow);
+}
+.btn-success:hover {
+    color: var(--seablue);
+    background-color: var(--orangeyellow);
+    border-color: var(--seablue);
+}
+
+.margin-top{
+    margin-top: 40px;
+}
+
+
+
+.background{
+    background-color:var(--orangeyellow) ;
+    padding: 50px;
+    padding-bottom: 90px;
+}
+
+h2{
+    color: var(--seablue);
+}
+
+h3{
+    color: var(--blue);
+}
+
+
+/* rgb(105,130,146 */

@@ -42,8 +42,12 @@ main{
     background-color: var(--white);
 }
  
-h2, h3, p{
+h2, p{
     color: var(--navy);
+}
+
+h3{
+    color: var(--orange);
 }
 
 .card-body {
