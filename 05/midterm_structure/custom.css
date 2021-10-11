@@ -1,0 +1,8 @@
+:root{
+    --dirty-green: rgb(66, 90, 60);
+
+}
+
+.bg-green{
+    background-color: var(--dirty-green);
+}
