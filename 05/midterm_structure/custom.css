@@ -1,8 +1,30 @@
 :root{
     --dirty-green: rgb(66, 90, 60);
+    --background: rgb(213, 208, 205);
+
 
 }
 
-.bg-green{
+/* body{
+    background-color: var(--background);
+} */
+
+/* .bg-green{
     background-color: var(--dirty-green);
+} */
+
+.me-lg-auto{
+    margin:0 auto;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.btn-shop{
+    background-color: var(--dirty-green);
+}
+
+.featurette-heading{
+    margin-top: 7rem;
 }
