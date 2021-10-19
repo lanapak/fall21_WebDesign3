@@ -65,3 +65,8 @@ a{
 footer{
     height:300px;
 }
+
+.checkout{
+    max-width: 768px;
+    margin: 0 auto;
+}
