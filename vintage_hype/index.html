@@ -20,38 +20,38 @@
           
         <nav class="navbar bg-green navbar-expand-md navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Vintage Hype logo" width="300" ></a>
+              <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Vintage Hype logo" width="200" ></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0 justify-content-center">
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="tees.html">Tees</a></li>
-                      <li><a class="dropdown-item" href="#">Sweaters</a></li>
-                      <li><a class="dropdown-item" href="#">Jackets</a></li>
-                      <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                      <li><a class="dropdown-item" href="sweaters.html">Sweaters</a></li>
+                      <li><a class="dropdown-item" href="jackets.html">Jackets</a></li>
+                      <li><a class="dropdown-item" href="hoodies.html">Hoodies</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">FAQs</a>
+                    <a class="nav-link" href="faqs.html">FAQs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <i class="bi bi-cart-fill"></i>
-                    </a>
-                  </li>
+                  
                 </ul>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="bi bi-cart-fill" type="submit"></button>
+          
+                    <a class="nav-link link " href="cart.html">
+                      <i class="bi bi-cart"></i>
+                    </a>
+                 
                 </form>
                 
               </div>
@@ -62,7 +62,7 @@
 
       <main>
         <!-- jumbo -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -71,30 +71,22 @@
 
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/j1.jpg" class="d-block w-100" alt="kitten">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
+              <picture>
+                <source srcset="images/j1.jpg" media="(min-width:768px"/>
+                <img src="images/j1_small.gif" alt="vintage hype" >
+              </picture>
             </div>
             <div class="carousel-item">
-              <img src="images/j2.jpg" class="d-block w-100" alt="kitten">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-                  <!-- Button trigger modal -->
-                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#newsletterSignup">
-                  Click for free kitten pics
-                </button>
-
-              </div>
+              <picture>
+                <source srcset="images/j2.jpg" media="(min-width:768px"/>
+                <img src="images/j2_small.gif" alt="not used" >
+              </picture>
             </div>
             <div class="carousel-item">
-              <img src="images/j3.jpg" class="d-block w-100" alt="kitten">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
+              <picture>
+                <source srcset="images/j3.jpg" media="(min-width:768px"/>
+                <img src="images/j3_small.gif" alt="just vintage" >
+              </picture>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -110,24 +102,24 @@
         <div class="container marketing">
           
           <h3> Shop by category >></h3>
-          <div class="row row-link">
+          <div class="row py-5">
 
             
-            <div class="col-md-3">
+            <div class="col-md-3 pb-5">
               <a href="tees.html">
                 <img class="rounded-circle" src="images/tees.gif" alt="tees">
                 <h2> Tees</h2>
               </a>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 pb-5">
               <a href="sweaters.html">
                 <img class="rounded-circle" src="images/sweater.gif" alt="sweater">
                 <h2> Sweaters</h2>
               </a>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 pb-5">
               <a href="jackets.html">
                 <img class="rounded-circle" src="images/jackets.gif" alt="jackets">
                 <h2>Jackets</h2>
@@ -144,14 +136,14 @@
 
           <hr>
 
-          <div class="row">
+          <div class="row mt-0">
             <div class="col-md-5">
-              <h3 class="text-muted featurette-heading">Located in the heart of the San Gabriel Valley, Vintage Hype is a streetwear vintage clothing store that focuses on inclusivity, creativity, & community. </h3>
-              <p>
-                <a class="btn btn-dark" href="#" role="button">  Read more </a>
+              <h3 class="text-muted py-5 pt-md-5 ">Our motto "Not Used. Just Vintage." is a call for sustainable resources and to tackle the problem within the fashion industry </h3>
+              <p class="pb-5">
+                <a class="btn btn-dark" href="blog.html" role="button">  Read more </a>
               </p>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 pb-5 pt-md-5">
               <img  src="images/home2.gif"  alt="vintage hype">
             </div>
             
@@ -159,26 +151,18 @@
 
           <hr>
 
-          <div class="row">
-            <div class="col-md-5 order-md-2">
-              <h3 class="text-muted featurette-heading">Our motto "Not Used. Just Vintage." is a call for sustainable resources and to tackle the problem within the fashion industry. </h3>
-              <p>
-                <a class="btn btn-dark" href="#" role="button"> Read more </a>
-              </p>
-            </div>
-            <div class="col-md-7 order-md-1">
-              <img  src="images/home.gif" alt="vintage hype">
-            </div>
-          </div>
-          <hr>
+          
+
+         
         </div>
 
       </main>
 
       <footer >
         <div class="container">
-          <div class="row  py-5 mx-5">
-            <div class="col-md-6">
+          <div class="row  py-5 mx-5 ">
+
+            <div class="col-md-6 text-center">
               <h5>Links</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2">
@@ -196,26 +180,29 @@
               </ul>
             </div>
           
-            <div class="col-md-6">
+            <div class="col-md-6 text-center mt-5">
               <h5>Socials</h5>
-              <ul class="nav flex-column d-flex justify-content-end ">
-                <li class="nav-item mb-2">
-                  <i href="#" class="bi bi-twitter text-muted"></i>
+              <ul class="nav flex-row justify-content-center">
+                <li class="nav-item ">
+                  <a class="nav-link text-muted" href="https://www.youtube.com/channel/UC6sqWaQdcgP1dh3-wHam9gA">
+                    <i class="bi bi-youtube "></i>
+                  </a>
                 </li>
-                <li class="nav-item mb-2">
-                  <i href="#" class="bi bi-instagram text-muted"></i>
+                <li class="nav-item ">
+                  <a class="nav-link text-muted" href="https://www.instagram.com/vintagehype.la/">
+                    <i class="bi bi-instagram "></i>
+                  </a>
                 </li>
-                <li class="nav-item mb-2">
-                  <i href="#" class="bi bi-facebook text-muted"></i>
+                <li class="nav-item ">
+                  <a class="nav-link text-muted" href="https://www.facebook.com/vintagehype.la/">
+                    <i class="bi bi-facebook "></i>
+                  </a>
                 </li>
               </ul>
             </div>
             
           </div>
-
         </div>
-
-
       </footer>
 
 

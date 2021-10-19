@@ -3,6 +3,7 @@
     --background: rgb(213, 208, 205);
 
 
+
 }
 
 img{
@@ -44,10 +45,17 @@ a{
     text-decoration:none;
 }
 
-.row-link{
+.link:hover{
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+
+}
+
+/* .row-link{
     margin-top: 6rem;
     margin-bottom:6rem;
-}
+} */
+
 
 .text-align-center{
     text-align: center;
@@ -55,6 +63,5 @@ a{
 
 
 footer{
-    height:400px;
-    background-color: var(--background);
+    height:300px;
 }
