@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+
+    <style>
+        section{
+            height:300px;
+        }
+
+        #gradient1{
+            background-image: linear-gradient(pink,rgb(211,162,255,0.7), skyblue );
+        }
+
+        #gradient2{
+            background-image: linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(1,39,140,1) 29%, rgba(0,181,179,1) 63%, rgba(0,255,132,1) 93%, rgba(0,255,106,1) 100%);
+        }
+
+        #gradient3{
+            background-image: repeating-linear-gradient(110deg,rgb(255,0,0) 0%, rgb(255,255,0) 10%,rgb(0,255,255) 20%);
+        }
+
+        #gradient4{
+            background-image: radial-gradient(circle, rgba(181,103,255,1) 0%, rgba(105,182,211,1) 29%, rgba(66,214,215,1) 55%, rgba(0,255,175,1) 100%);;
+        }
+
+        #gradient40{
+            background-image: radial-gradient(ellipse, rgba(181,103,255,1) 0%, rgba(105,182,211,1) 29%, rgba(66,214,215,1) 55%, rgba(0,255,175,1) 100%);;
+            height: 200px;
+        }
+
+        #gradient5{
+            background-image:radial-gradient(circle farthest-corner at 70% 20%, rgba(69,255,81,1) 0%, rgba(105,247,255,1) 39%, rgba(66,214,215,1) 74%, rgba(228,255,0,1) 100%);
+        }
+
+        #gradient6{
+            background-image: url(clouds-blue-sky-background.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #gradient6 h1{
+            font-size: 80px;
+            margin:0px;
+            text-align: left;
+            color:rgb(227, 255, 255);
+            position:absolute;
+            top:50%;
+            transform: translateY(-50%);
+            
+        }
+
+        .transparent-gradient{
+            width:100%;
+            height:100%;
+            position:absolute;
+            top: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, rgba(10,100,180,1),rgba(10,100,180,0.5) 65%,rgba(10,100,180,0) );
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    
+    <main>
+        <section id="gradient1"> liner gradient</section>
+
+        <section id="gradient2">liner gradient 30deg</section>
+
+        <section id="gradient3">rpeating liner gradient</section>
+       
+        <section id="gradient4">radial gradient circle</section>
+        <section id="gradient40">radial gradient ellipse</section>
+
+        <section id="gradient5">radical gradient cirle farthest corner</section>
+
+        <section id="gradient6">
+            <div class="transparent-gradient"> </div>
+            <h1>It's the clouds!</h1>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
