@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation in css</title>
+    <style>
+        body{
+            margin:0; 
+            overflow: hidden;
+            animation: colorBody 5s ease-in;
+            position: relative;
+            height:100vh;
+            background-color: black;
+        }
+
+        #circle{
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:1vw;
+            height:1vh;
+            animation: circleAnim 4s 5s forwards;
+            z-index: 5;
+            visibility: hidden;
+        }
+
+        #circle2{
+            border-radius: 50%;
+            background-color: black;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:1vw;
+            height:1vh;
+            animation: circleAnim 4s 6s forwards;
+            z-index: 5;
+            visibility: hidden;
+        }
+
+        #circle3{
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:1vw;
+            height:1vh;
+            animation: circleAnim 4s 7s forwards;
+            z-index: 5;
+            visibility: hidden;
+        }
+
+        #circle4{
+            border-radius: 50%;
+            background-color: black;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:1vw;
+            height:1vh;
+            animation: circleAnim 4s 8s forwards;
+            z-index: 5;
+            visibility: hidden;
+        }
+
+
+        /* a {
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-delay: 9s;
+        } */
+
+        /* p {
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-delay: 9s;
+        } */
+        
+
+        @keyframes colorBody {
+            0%{
+                background-color: black;
+            }
+
+            20%{
+                background-color: white;
+                
+                
+            }
+
+            30%{
+                background-color: black;
+            }
+
+            40%{
+                background-color: white;
+            }
+
+            50%{
+                background-color: black;
+            }
+
+            60%{
+                background-color: white;
+            }
+
+            70%{
+                background-color: black;
+            }
+
+            80%{
+                background-color: white;
+            }
+
+            100%{
+                background-color: black;
+            }
+
+        }
+
+        @keyframes circleAnim{
+            0%{
+                width: 0vw;
+                height:0vh;
+                visibility: visible;
+            }
+            100%{
+                width: max(150vw,150vh);
+                height: max(150vw,150vh);
+                visibility: visible;
+            }
+        }
+
+        @keyframes circle2Anim{
+            0%{
+                width: 0vw;
+                height:0vh;
+                visibility: visible;
+            }
+            100%{
+                width: max(150vw,150vh);
+                height: max(150vw,150vh);
+                visibility: visible;
+            }
+        }
+
+        @keyframes circle3Anim{
+            0%{
+                width: 0vw;
+                height:0vh;
+                visibility: visible;
+            }
+            100%{
+                width: max(150vw,150vh);
+                height: max(150vw,150vh);
+                visibility: visible;
+            }
+        }
+
+        @keyframes circle4Anim{
+            0%{
+                width: 0vw;
+                height:0vh;
+                visibility: visible;
+            }
+            100%{
+                width: max(150vw,150vh);
+                height: max(150vw,150vh);
+                visibility: visible;
+            }
+        }
+
+        
+
+/* 
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        } */
+
+
+
+
+    </style>
+</head>
+<body>
+    <header></header>
+
+    <main>
+
+        <div id="circle"></div>
+        <div id="circle2"></div>
+        <div id="circle3"></div>
+        <div id="circle4"></div>
+
+        <!-- <p>click the link</p> -->
+
+        <!-- <div id="text"> 
+            <a id="text" href="https://www.youtube.com/watch?v=G_7NMz9Ln8E&ab_channel=REZZVEVO">click the link</a>
+       </div> -->
+
+        <!-- <div id="video">
+            <iframe width="420" height="315"
+                src="https://www.youtube.com/watch?v=G_7NMz9Ln8E&ab_channel=REZZVEVO">
+            </iframe>
+        </div> -->
+
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
