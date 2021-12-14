@@ -1,0 +1,11 @@
+img{
+    max-width: 100%;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+}
