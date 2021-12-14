@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Overlock&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body{
+    background-color:rgb(255, 254, 235) ;
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar-nav{
+    text-align:center;
+}
+
+.navbar-light a{
+    color: rgb(20, 19, 1)!important;
+}
+
+.navbar-light a:hover{
+    color: rgb(116, 116, 107)!important;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+}
+
+.margin-bottom{
+    margin-bottom:30px;
+}
+
+.card-title{
+    color:rgb(255, 254, 235);
+    background-color: rgba(20, 19, 1, 60%);
+    font-size: 1.3em;
+    display:inline-flex;
+}
+
+.card-text{
+    color:rgb(255, 254, 235);
+    background-color: rgba(0, 0 ,0 , 70%);
+    font-size: 1em;
+}
+
+h4{
+    font-family: 'Lilita One', cursive;
+
+}
+
+.carousel-caption ul{
+    font-size: 2em;
+    margin-bottom:130%;
+    padding-left:none;
+    padding-right:10%;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+
+h2{
+    font-family: 'Lilita One', cursive;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(116, 116, 107);
+}
+
+a:hover{
+    color: rgb(20, 19, 1);
+}
+
+.about-1 p{
+    font-size: 1.3em;
+}
+
+
+/* 
+.nav-team{
+    background-color: rgba(157, 27, 44, 70%);
+} */
+
+footer{
+    background-color: rgba(212, 212, 212, 40%);
+}
+
+
+@media(min-width:768px){
+    
+    .navbar-nav{
+        margin-left:77%!important;
+    }
+    
+    h4{
+        font-size: 22px;
+    }
+
+    .margin-bottom{
+        margin-bottom:none;
+    }
+
+    .card-title{
+        font-size: 2em;
+    }
+
+    .card-right{
+        margin-left:42%;
+    }
+
+    .padding-top{
+        padding-top: 25%!important;
+    }
+
+    .carousel-caption ul{
+        margin-bottom:50%;
+    }
+    .carousel-caption li{
+        color: rgba(244, 244, 245, 100%);
+    }
+
+    .carousel-caption h3{
+        font-size: 44px;
+        
+    }
+}
+
+@media(min-width:1000px){
+
+    .navbar-nav{
+        margin-left:80%!important;
+    }
+}
+
+@media(min-width:1400px){
+
+    .navbar-nav{
+        margin-left:85%!important;
+    }
+
+    h4{
+        font-size: 34px!important;
+    }
+
+
+}
